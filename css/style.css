@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    max-width: 1000px;
+    min-width: auto;
+}
+body{
+   
+    background-color: fff;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+h1{
+    text-align: center;
+}
+h2{
+    
+    font-size: 20px;
+    font-weight:300
+}
+img {
+    width: 150px;
+    height: 180px;
+    border-radius:10px;
+    
+    position: relative;
+    animation: myfirst 5s linear 2s infinite alternate;
+  }
+  
+  @keyframes myfirst {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:0px; top:200px;}
+    75%  { left:200px; top:200px;}
+    100% { left:0px; top:0px;}
+  }
